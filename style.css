@@ -405,7 +405,7 @@
 }
 /*--------------------------<SLIDER>-------------------------*/
 .swiper-container {
-  height: 1024px;
+  height: 100vh;
   position: relative;
 }
 .swiper-wrapper {
@@ -1431,6 +1431,12 @@
   }
   .logo__img {
     width: 50px;
+  }
+  .menu {
+    top: 55px;
+  }
+  .divices-list {
+    padding-left: 0;
   }
 }
 @media screen and (max-width: 440px) {
