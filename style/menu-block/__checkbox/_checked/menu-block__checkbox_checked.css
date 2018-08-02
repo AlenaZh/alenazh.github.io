@@ -12,7 +12,11 @@
 }
 .menu-block__checkbox_checked:checked ~ .menu {
   opacity: 1;
+  max-height: inherit;
 }
 .menu-block__checkbox_checked:checked .logo {
   display: none;
+}
+.menu-block__checkbox_checked:checked ~ ul li {
+  display: block;
 }

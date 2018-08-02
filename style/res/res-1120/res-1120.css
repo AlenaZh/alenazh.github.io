@@ -17,6 +17,7 @@
     background-color: rgba(18, 18, 18, 0.95);
     margin-bottom: 0;
     border: 1px solid rgba(18, 18, 18, 0.95);
+    display: none;
   }
   .menu__item:nth-of-type(n+2) {
     margin-left: 0;
