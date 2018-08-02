@@ -6,4 +6,31 @@
   .logo__text {
     display: none;
   }
+  .swiper-pagination {
+    bottom: 10px;
+  }
+  .slider-title__caption-medium {
+    font-size: 1.5rem;
+  }
+  .slider-title__caption-bold {
+    font-size: 2.5rem;
+  }
+  .slider-title__paragraph {
+    font-size: 0.97rem;
+  }
+  .caption {
+    font-size: 1.5rem;
+  }
+  .paragraph {
+    font-size: 0.97rem;
+  }
+  .text-box__caption {
+    font-size: 1.5rem;
+  }
+  .slider-title__paragraph {
+    margin-bottom: 25px;
+  }
+  .counters-block__item {
+    flex-basis: 150px;
+  }
 }

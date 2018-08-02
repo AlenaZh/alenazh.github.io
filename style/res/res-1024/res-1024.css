@@ -42,4 +42,13 @@
     height: 196px;
     width: 100%;
   }
+  .swiper-slide {
+    background-image: url(img/header1024.jpg);
+  }
+  .partners {
+    background-image: url(img/partners1024.jpg);
+  }
+  .video {
+    background-image: url(img/video1024.jpg);
+  }
 }
