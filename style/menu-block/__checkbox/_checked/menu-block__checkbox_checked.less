@@ -1,0 +1,21 @@
+.menu-block__checkbox_checked:checked + .menu-block__menu-icon {
+    background-color: transparent;
+}
+
+.menu-block__checkbox_checked:checked + .menu-block__menu-icon:before {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.menu-block__checkbox_checked:checked + .menu-block__menu-icon:after {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
+.menu-block__checkbox_checked:checked ~ .menu {
+    opacity: 1;
+}
+
+.menu-block__checkbox_checked:checked .logo {
+    display: none;
+}

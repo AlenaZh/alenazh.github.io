@@ -1,0 +1,29 @@
+.menu-block__menu-icon {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+.menu-block__menu-icon,
+.menu-block__menu-icon:before,
+.menu-block__menu-icon:after {
+    background-color: #fff;
+    height: 0.1rem;
+    transition: all 0.2s ease-in-out;
+    width: 24px;
+}
+
+.menu-block__menu-icon:before,
+.menu-block__menu-icon:after {
+    content: '';
+    position: absolute;
+    left: 0;
+}
+
+.menu-block__menu-icon:before {
+    top: -0.5rem;
+}
+
+.menu-block__menu-icon:after {
+    bottom: -0.5rem;
+}

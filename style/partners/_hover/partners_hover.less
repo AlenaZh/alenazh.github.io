@@ -1,0 +1,28 @@
+    .partners_hover:hover {
+        animation-name: swing;
+        animation-duration: 1.3s; //время анимации
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        transform-origin: top;
+    }
+    
+    @keyframes swing {
+        0% {
+            transform: rotate(0);
+        }
+        15% {
+            transform: rotate(12deg);
+        }
+        30% {
+            transform: rotate(-8deg);
+        }
+        45% {
+            transform: rotate(6deg);
+        }
+        60% {
+            transform: rotate(0);
+        }
+        100% {
+            transform: rotate(0);
+        }
+    }
