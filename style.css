@@ -1359,6 +1359,16 @@
   .counters-block__item:nth-child(n+4) {
     margin-top: 40px;
   }
+  .devices {
+    flex-flow: column-reverse;
+  }
+  .devices__text {
+    padding-bottom: 25px;
+  }
+  .devices__img-block {
+    align-self: center;
+    width: 50%;
+  }
 }
 @media screen and (max-width: 642px) {
   .slider-title__caption-medium {
@@ -1412,5 +1422,22 @@
   }
   .counters-block__item:nth-child(n+3) {
     margin-top: 40px;
+  }
+}
+@media screen and (max-width: 483px) {
+  .logo__text {
+    font-size: 1.75rem;
+    line-height: 1rem;
+  }
+  .logo__img {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .menu-block {
+    padding: 15px 0;
+  }
+  .logo__text {
+    display: none;
   }
 }
