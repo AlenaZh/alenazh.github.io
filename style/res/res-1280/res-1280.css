@@ -68,4 +68,20 @@
   .partners__img {
     width: calc(16.40625vw);
   }
+  .pre-footer__wrap {
+    width: calc(91.5625%);
+  }
+  .pre-footer-widget {
+    flex-basis: auto;
+  }
+  .pre-footer-widget__wrap {
+    flex-direction: column;
+    width: 130px;
+  }
+  .pre-footer-widget__item:nth-of-type(n) {
+    margin: 0 0 10px 0;
+  }
+  .footer-wrap {
+    width: calc(91.5625%);
+  }
 }

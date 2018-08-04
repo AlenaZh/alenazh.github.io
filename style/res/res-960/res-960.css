@@ -26,4 +26,28 @@
   .posts__paragraph {
     width: 95%;
   }
+  .pre-footer {
+    padding: 40px 0;
+  }
+  .pre-footer-posts {
+    margin-right: 0;
+  }
+  .pre-footer__wrap {
+    flex-wrap: wrap;
+    max-width: 570px;
+  }
+  .pre-footer-widget {
+    flex-basis: 270px;
+  }
+  .pre-footer-widget__wrap {
+    display: flex;
+    flex-flow: row wrap;
+    width: auto;
+  }
+  .pre-footer-widget__item:nth-of-type(2n+1) {
+    margin: 0 10px 0 0;
+  }
+  .pre-footer-widget__item:nth-of-type(n+3) {
+    margin-top: 10px 0 0 0;
+  }
 }
