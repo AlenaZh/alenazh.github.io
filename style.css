@@ -1627,6 +1627,16 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .logo__text {
+    font-size: 1.75rem;
+    line-height: 1rem;
+  }
+  .logo__img {
+    width: 50px;
+  }
+  .menu {
+    top: 55px;
+  }
   .swiper-button-next__icon,
   .swiper-button-prev__icon {
     display: none;
@@ -1778,17 +1788,24 @@
   }
 }
 @media screen and (max-width: 483px) {
-  .logo__text {
-    font-size: 1.75rem;
-    line-height: 1rem;
-  }
-  .logo__img {
-    width: 50px;
-  }
-  .menu {
-    top: 55px;
-  }
   .divices-list {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 455px) {
+  .footer-left-block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .footer-left-block__item:first-of-type {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+    padding-right: 0;
+  }
+  .footer-left-block__item:nth-of-type(2) {
+    border-left: none;
     padding-left: 0;
   }
 }
@@ -1825,5 +1842,22 @@
   }
   .counters-block__item {
     flex-basis: 150px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .footer-right-block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .footer-right-block__item:first-of-type {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+    padding-right: 0;
+  }
+  .footer-right-block__item:nth-of-type(2) {
+    border-left: none;
+    padding-left: 0;
   }
 }
